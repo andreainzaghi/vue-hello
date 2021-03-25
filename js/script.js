@@ -3,15 +3,14 @@ new Vue({
   data: {
     test:'Andrea',
     img: 'img/OIP.jfif',
-    color:'hello',
-   methods:{
-     text:function(){
-       alert("ciao");
-     },
-
-      cambia:function(){
-        this.color='blue';
-      }
-    }
-  }
+     color:'hello'
+  },
+  methods: {
+   text:function(){
+     alert("ciao");
+   },
+   cambia:function(){
+     this.color='blue';
+   }
+ }
 });
